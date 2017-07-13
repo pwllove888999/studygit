@@ -1,4 +1,5 @@
 # 带你学习如何编写github-README.md文件
+这里提供学习README.md的github自有网站链接：https://guides.github.com/features/mastering-markdown/
 ## 标题
 ```
 # This is an tag
@@ -113,3 +114,27 @@ foreach($arr as $key => $value) {
 	echo $value;
 }
 ```
+
+## 字体样式
+```
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+```
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+## 表格
+```
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+```
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
