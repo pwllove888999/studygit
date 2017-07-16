@@ -1,140 +1,16 @@
-# 带你学习如何编写github-README.md文件
-这里提供学习README.md的github自有网站链接：https://guides.github.com/features/mastering-markdown/
-## 标题
-```
-# This is an tag
-## This is an tag
-###### This is an tag
-```
-# This is an tag
-## This is an tag
-###### This is an tag
+# 一步一步熟悉git基本操作
 
+这里有几篇由我自己写的学习git操作的文章，写得不太好请体谅
 
-## 斜体
-```
-*This text will be italic*
-_This text will be italic_
-```
-*This text will be italic*
-_This text will be italic_
+### [（一）git-在本地创建一个git库并完成提交流程](http://www.jianshu.com/p/5c278df89944)
 
+### [（二）git-回退工作区版本](http://www.jianshu.com/p/274169f1f478)
 
-## 列表
-```
-* Item 1
-* Item 2
+### [（三）git-撤销回退版本](http://www.jianshu.com/p/25c4889d07e9)
 
-1. Item 1
-2. Item 2
-3. Item 3
+### [（四）git-撤销修改](http://www.jianshu.com/p/6986e858f3b5)
 
-- Item1
-- Item2
-	- Item3
-	- Item4
-```
-* Item 1
-* Item 2
+### [（五）git-删除文件](http://www.jianshu.com/p/2a75523c733f)
 
-1. Item 1
-2. Item 2
-3. Item 3
+### [（六）git-本地库关联远端库（github）、提交和拉取代码](http://www.jianshu.com/p/81c61cf36d72)
 
-- Item1
-- Item2
-	- Item3
-	- Item4
-
-
-## 图片
-```
-![GitHub Logo](./images/logo.png)
-```
-![GitHub Logo](./images/image1.png)
-![GitHub Logo](./images/logo.png)
-
-
-## 链接
-```
-http://github.com
-[GitHub](http://github.com)
-```
-http://github.com
-[GitHub](http://github.com)
-
-
-## 块引用
-```
-As Kanye West said:
-> We're living the future so <br>
-> the present is our past.
-```
-As Kanye West said:
-> We're living the future so <br>
-> the present is our past.
-
-## 行内代码引用
-```
-I think you should use an
-`<div>` element here instead.
-```
-I think you should use an
-`<div>` element here instead.
-
-## 不同编程语言代码块
-```html
-html
-
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-	<div>hello world</div>
-</body>
-</html>
-```
-
-```javascript
-javascript
-
-window.onload = function(){
-	console.log(123)
-}
-```
-
-```php
-php
-
-$arr = array('name', 'age');
-
-foreach($arr as $key => $value) {
-	echo $value;
-}
-```
-
-## 字体样式
-```
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
-```
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
-
-## 表格
-```
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-```
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
